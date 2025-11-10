@@ -1,22 +1,24 @@
 # Lab 03 – Node API (HTTP, Express, Chat)
 
-This project implements a simple Node.js API to demonstrate basic web server functionality, Express routing, and a mini chat application.  
-It was created as part of **IS-5600 Week 03 Lab**.
+This lab demonstrates how to build and test Node.js web servers using the **HTTP module** and **Express.js** framework.  
+It includes three parts: a basic HTTP server, an Express API, and a mini chat service with file-based persistence.
 
 ---
 
-## 🧩 Project Overview
+## 🧩 Project Files
 
-The lab contains three main components:
-1. **index.js** – Basic Node.js HTTP server using the built-in `http` module.  
-2. **express-server.js** – Express-based API with structured routing and JSON responses.  
-3. **chat-app.js** – A small chat API using Express and file-based persistence (`data/messages.json`).
+| File | Description |
+|------|--------------|
+| `index.js` | Basic Node.js HTTP server that responds with simple messages. |
+| `express-server.js` | Express API that returns structured JSON responses. |
+| `chat-app.js` | Chat API built with Express that reads/writes messages from `data/messages.json`. |
+| `data/messages.json` | Stores all chat messages locally in JSON format. |
 
 ---
 
-## ⚙️ Installation and Setup
+## ⚙️ Setup Instructions
 
-1. Clone or open this repository in VS Code.  
+1. Clone this repository or open it in **VS Code**.  
 2. Install dependencies:
    ```bash
    npm install
